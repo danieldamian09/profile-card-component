@@ -25,8 +25,8 @@
 
 .fondo {
 
-  background: url(./images/bg-pattern-top.svg) -237px -550px no-repeat, 
-              url(./images/bg-pattern-bottom.svg) 733px 397px no-repeat;
+  background: url(./images/bg-pattern-top.svg) -237px -550px no-repeat,
+    url(./images/bg-pattern-bottom.svg) 733px 397px no-repeat;
   background-color: var(--dark-cyan);
   font-family: 'Kumbh Sans', sans-serif;
   width: 100%;
@@ -100,11 +100,8 @@ img {
 }
 
 hr {
-
   background-color: var(--dark-grey);
   opacity: 0.2;
-
-
 
 }
 
@@ -125,15 +122,6 @@ hr {
   color: var(--dark-grayish-blue)
 }
 
-/* Media queries */
-@media only screen and (min-width:375px) {}
-
-
-
-
-
-
-
 /* Footer */
 
 .attribution {
@@ -143,4 +131,14 @@ hr {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media queries */
+@media only screen and (max-width:375px) {
+  .fondo {
+    background: url(./images/bg-pattern-top.svg) 121% 192% no-repeat,
+      url(./images/bg-pattern-bottom.svg) -31% -51% no-repeat;
+    background-color: var(--dark-cyan);
+  }
+
 }
