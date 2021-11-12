@@ -131,6 +131,10 @@ hr {
 
 /* Media queries */
 @media only screen and (max-width:375px) {
-  
+  .fondo {
+    background: url(./images/bg-pattern-top.svg) 121% 192% no-repeat,
+      url(./images/bg-pattern-bottom.svg) -31% -51% no-repeat;
+    background-color: var(--dark-cyan);
+  }
 
 }
