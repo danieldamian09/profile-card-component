@@ -1,7 +1,6 @@
 /* Import y * */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@100&display=swap');
+
 
 /* Root para las variables de colores */
 :root {
@@ -16,9 +15,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 
 
 /* Diseño fondo, parrafos/textos, imagen */
@@ -135,10 +131,6 @@ hr {
 
 /* Media queries */
 @media only screen and (max-width:375px) {
-  .fondo {
-    background: url(./images/bg-pattern-top.svg) 121% 192% no-repeat,
-      url(./images/bg-pattern-bottom.svg) -31% -51% no-repeat;
-    background-color: var(--dark-cyan);
-  }
+  
 
 }
